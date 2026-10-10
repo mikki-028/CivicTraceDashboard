@@ -1,0 +1,132 @@
+
+> dev
+> vite dev
+
+[33mThe plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the [1mresolve.tsconfigPaths[22m option. You can remove the plugin and set [1mresolve.tsconfigPaths: true[22m in your Vite config instead.[39m
+
+  [32m[1mVITE[22m v8.1.5[39m  [2mready in [0m[1m4604[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8080[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.5:[1m8080[22m/[39m
+[2m12:52:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] scanning dependencies...
+[2m12:52:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m12:53:04 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m connected.
+[2m12:55:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/bwgs.$entityId.tsx[22m
+[2m12:55:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/bwgs.$entityId.tsx[22m
+[2m12:55:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m12:55:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/assets.$entityId.tsx, /src/routes/assets.$entityId.tsx?tsr-split=component[22m
+[2m12:55:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/assets.$entityId.tsx[22m
+[2m12:56:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m12:56:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/repo.ts[22m
+[2m12:56:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m12:56:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m12:56:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx[22m
+[2m12:56:21 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m12:56:21 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/repo.ts[22m
+[2m12:56:21 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m12:56:21 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx[22m
+[2m12:57:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/CollectionModal.tsx[22m
+[2m12:57:07 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/CollectionModal.tsx[22m
+[2m12:57:07 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:00:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:00:56 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/repo.ts[22m
+[2m1:00:56 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:00:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:00:56 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/store.tsx[22m
+[2m1:00:57 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:00:57 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx[22m
+[2m1:02:22 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:02:22 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/repo.ts[22m
+[2m1:02:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:02:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx[22m
+[2m1:11:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/__root.tsx[22m
+[2m1:11:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/__root.tsx[22m
+[2m1:11:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:11:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/GuidedTour.tsx[22m
+[2m1:11:42 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/GuidedTour.tsx[22m
+[2m1:11:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/civic/GuidedTour.tsx[22m Could not Fast Refresh ("useGuidedTour" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:11:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx[22m
+[2m1:13:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/EventTimeline.tsx, /src/components/civic/InsightCard.tsx, /src/components/civic/InsightDialog.tsx, /src/components/civic/EventDetailDialog.tsx, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component and 8 more[22m
+[2m1:13:52 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/rules.ts[22m
+[2m1:13:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:13:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx, /src/routes/queue.tsx?tsr-split=component, /src/components/civic/VerificationModal.tsx and 6 more[22m
+[2m1:13:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/civic/EventTimeline.tsx[22m Could not Fast Refresh ("eventTypeLabel" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:13:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/index.tsx?tsr-split=component, /src/components/civic/EventDetailDialog.tsx, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/routes/events.tsx?tsr-split=component, /src/routes/map.tsx?tsr-split=component, /src/routes/bwgs.$entityId.tsx?tsr-split=component[22m
+[2m1:14:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx, /src/components/civic/ReportModal.tsx[22m
+[2m1:14:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/schema.ts[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/repo.ts[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/store.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/EventTimeline.tsx, /src/components/civic/InsightCard.tsx, /src/components/civic/InsightDialog.tsx, /src/components/civic/EventDetailDialog.tsx, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component and 8 more[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/rules.ts[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/GisInteractiveMap.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/GisInteractiveMap.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/OverviewMap.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/OverviewMap.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/ReportModal.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/ReportModal.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/EventTimeline.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/EventTimeline.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/TopBar.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/TopBar.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/AppSidebar.tsx[22m
+[2m1:14:13 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/AppSidebar.tsx[22m
+[2m1:14:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m1:14:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/__root.tsx[22m
+[2m1:14:14 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/__root.tsx[22m
+[2m1:14:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:14:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx, /src/routes/queue.tsx?tsr-split=component, /src/components/civic/VerificationModal.tsx and 6 more[22m
+[2m1:14:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/civic/EventTimeline.tsx[22m Could not Fast Refresh ("eventTypeLabel" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:14:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/index.tsx?tsr-split=component, /src/components/civic/EventDetailDialog.tsx, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/routes/events.tsx?tsr-split=component, /src/routes/map.tsx?tsr-split=component, /src/routes/bwgs.$entityId.tsx?tsr-split=component[22m
+[2m1:16:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:16:14 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/store.tsx[22m
+[2m1:16:14 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:16:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:16:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx, /src/routes/queue.tsx?tsr-split=component, /src/components/civic/VerificationModal.tsx and 6 more[22m
+[2m1:17:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:17:15 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/store.tsx[22m
+[2m1:17:15 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:17:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:17:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx, /src/routes/queue.tsx?tsr-split=component, /src/components/civic/VerificationModal.tsx and 6 more[22m
+[2m1:18:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/queue.tsx, /src/routes/queue.tsx?tsr-split=component[22m
+[2m1:18:46 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/queue.tsx[22m
+[2m1:18:46 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:19:10 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/queue.tsx, /src/routes/queue.tsx?tsr-split=component[22m
+[2m1:19:10 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/queue.tsx[22m
+[2m1:57:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx, /src/components/civic/ReportModal.tsx[22m
+[2m1:57:30 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/schema.ts[22m
+[2m1:57:30 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m1:57:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m1:57:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:57:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx, /src/routes/queue.tsx?tsr-split=component, /src/components/civic/VerificationModal.tsx and 6 more[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/repo.ts[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/lib/civic/store.tsx[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/civic/store.tsx[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/TopBar.tsx[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/TopBar.tsx[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/DataStatusBanner.tsx[22m
+[2m1:58:07 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/DataStatusBanner.tsx[22m
+[2m1:58:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/EventTimeline.tsx[22m
+[2m1:58:08 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/EventTimeline.tsx[22m
+[2m1:58:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/lib/civic/store.tsx[22m Could not Fast Refresh ("useCivic" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:58:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/__root.tsx, /src/components/civic/AppSidebar.tsx, /src/components/civic/TopBar.tsx, /src/routes/index.tsx?tsr-split=component, /src/components/civic/OverviewMap.tsx, /src/routes/assets.index.tsx?tsr-split=component, /src/routes/bwgs.index.tsx?tsr-split=component, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/components/civic/CollectionModal.tsx, /src/components/civic/ReportModal.tsx, /src/routes/queue.tsx?tsr-split=component, /src/components/civic/VerificationModal.tsx and 6 more[22m
+[2m1:58:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/civic/EventTimeline.tsx[22m Could not Fast Refresh ("eventTypeLabel" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m1:58:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/index.tsx?tsr-split=component, /src/components/civic/EventDetailDialog.tsx, /src/routes/assets.$entityId.tsx?tsr-split=component, /src/routes/events.tsx?tsr-split=component, /src/routes/map.tsx?tsr-split=component, /src/routes/bwgs.$entityId.tsx?tsr-split=component[22m
+[2m1:58:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/assets.$entityId.tsx, /src/routes/assets.$entityId.tsx?tsr-split=component[22m
+[2m1:58:16 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/assets.$entityId.tsx[22m
+[2m1:58:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/bwgs.$entityId.tsx, /src/routes/bwgs.$entityId.tsx?tsr-split=component[22m
+[2m1:58:16 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/bwgs.$entityId.tsx[22m
+[2m1:59:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/DataStatusBanner.tsx[22m
+[2m1:59:14 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/DataStatusBanner.tsx[22m
+[2m1:59:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/assets.$entityId.tsx, /src/routes/assets.$entityId.tsx?tsr-split=component[22m
+[2m1:59:14 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/assets.$entityId.tsx[22m
+[2m1:59:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/bwgs.$entityId.tsx, /src/routes/bwgs.$entityId.tsx?tsr-split=component[22m
+[2m1:59:14 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/bwgs.$entityId.tsx[22m
+[2m2:04:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/OverviewMap.tsx[22m
+[2m2:04:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/OverviewMap.tsx[22m
+[2m2:04:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m2:04:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/civic/GisInteractiveMap.tsx[22m
+[2m2:04:12 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/components/civic/GisInteractiveMap.tsx[22m

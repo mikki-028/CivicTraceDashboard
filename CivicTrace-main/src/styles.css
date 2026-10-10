@@ -1,0 +1,270 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet.markercluster/dist/MarkerCluster.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * CivicTrace design system — municipal operations console.
+ * Light surfaces, deep navy text, civic green as the positive status colour.
+ * All colours are oklch tokens; never hardcode colours in components.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 3px);
+  --radius-md: calc(var(--radius) - 1px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 3px);
+  --radius-2xl: calc(var(--radius) + 6px);
+
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-normal: var(--status-normal);
+  --color-normal-soft: var(--status-normal-soft);
+  --color-pending: var(--status-pending);
+  --color-pending-soft: var(--status-pending-soft);
+  --color-attention: var(--status-attention);
+  --color-attention-soft: var(--status-attention-soft);
+  --color-priority: var(--status-priority);
+  --color-priority-soft: var(--status-priority-soft);
+  --color-verification: var(--status-verification);
+  --color-verification-soft: var(--status-verification-soft);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --shadow-panel: 0 1px 2px oklch(0.22 0.03 255 / 6%);
+  --shadow-raised: 0 4px 14px -6px oklch(0.22 0.03 255 / 18%);
+}
+
+:root {
+  --radius: 0.375rem;
+
+  --background: oklch(0.982 0.003 250);
+  --foreground: oklch(0.24 0.032 258);
+  --surface: oklch(1 0 0);
+  --surface-muted: oklch(0.968 0.005 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.24 0.032 258);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.24 0.032 258);
+
+  --primary: oklch(0.49 0.1 157);
+  --primary-foreground: oklch(0.99 0.005 150);
+  --secondary: oklch(0.955 0.006 250);
+  --secondary-foreground: oklch(0.3 0.03 258);
+  --muted: oklch(0.962 0.005 250);
+  --muted-foreground: oklch(0.52 0.02 256);
+  --accent: oklch(0.95 0.015 160);
+  --accent-foreground: oklch(0.34 0.07 158);
+  --destructive: oklch(0.52 0.19 25);
+  --destructive-foreground: oklch(0.99 0.004 60);
+
+  --border: oklch(0.905 0.007 252);
+  --border-strong: oklch(0.845 0.01 252);
+  --input: oklch(0.9 0.008 252);
+  --ring: oklch(0.49 0.1 157);
+
+  --status-normal: oklch(0.47 0.1 157);
+  --status-normal-soft: oklch(0.955 0.03 158);
+  --status-pending: oklch(0.6 0.12 92);
+  --status-pending-soft: oklch(0.965 0.045 95);
+  --status-attention: oklch(0.6 0.15 60);
+  --status-attention-soft: oklch(0.96 0.045 70);
+  --status-priority: oklch(0.52 0.19 25);
+  --status-priority-soft: oklch(0.955 0.03 25);
+  --status-verification: oklch(0.36 0.025 258);
+  --status-verification-soft: oklch(0.94 0.008 255);
+
+  --sidebar: oklch(0.24 0.032 258);
+  --sidebar-foreground: oklch(0.92 0.008 250);
+  --sidebar-primary: oklch(0.62 0.13 158);
+  --sidebar-primary-foreground: oklch(0.18 0.03 258);
+  --sidebar-accent: oklch(0.3 0.033 258);
+  --sidebar-accent-foreground: oklch(0.97 0.005 250);
+  --sidebar-border: oklch(0.32 0.03 258);
+  --sidebar-ring: oklch(0.62 0.13 158);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.012em;
+  }
+}
+
+@utility mono-id {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: -0.01em;
+}
+
+@utility panel {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-panel);
+}
+
+@utility map-grid {
+  background-image:
+    linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.leaflet-container {
+  background: var(--color-surface-muted);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+.leaflet-control-zoom a,
+.leaflet-control-attribution {
+  color: var(--color-foreground);
+}
+
+.leaflet-control-attribution {
+  background-color: color-mix(in oklch, var(--color-surface) 88%, transparent);
+}
+
+.civic-map-icon {
+  background: transparent;
+  border: 0;
+}
+
+.civic-map-marker {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0.3125rem;
+  border: 0.1875rem solid var(--color-surface);
+  border-radius: 9999px;
+  box-shadow: var(--shadow-raised);
+  transition: transform 150ms ease;
+}
+
+.civic-map-marker--bwg {
+  border-radius: var(--radius-sm);
+}
+
+.civic-map-icon:hover .civic-map-marker,
+.civic-map-icon:focus .civic-map-marker {
+  transform: scale(1.2);
+}
+
+.civic-map-marker--selected {
+  outline: 2px solid var(--color-foreground);
+  outline-offset: 2px;
+  transform: scale(1.15);
+}
+
+.civic-map-marker--normal { background-color: var(--color-normal); }
+.civic-map-marker--pending { background-color: var(--color-pending); }
+.civic-map-marker--attention,
+.civic-map-marker--maintenance { background-color: var(--color-attention); }
+.civic-map-marker--priority { background-color: var(--color-priority); }
+.civic-map-marker--verification { background-color: var(--color-verification); }
+
+.civic-map-ward {
+  pointer-events: none;
+}
+
+.civic-map-ward-label {
+  border-color: var(--color-primary);
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-panel);
+}
+
+.civic-map-ward-label::before {
+  border-top-color: var(--color-primary);
+}
+
+.civic-map-cluster-wrap {
+  background: transparent;
+  border: 0;
+}
+
+.civic-map-cluster {
+  display: flex;
+  width: 2.375rem;
+  height: 2.375rem;
+  align-items: center;
+  justify-content: center;
+  border: 0.1875rem solid var(--color-surface);
+  border-radius: 9999px;
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-raised);
+}
+
+.marker-cluster-spider-leg {
+  stroke: var(--color-foreground);
+  stroke-opacity: 0.45;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .civic-map-marker {
+    transition: none;
+  }
+}
+
+/* Guided tour: keep real dropdowns/dialogs opened by the tour above its overlay */
+html.tour-active [data-radix-popper-content-wrapper] {
+  z-index: 1001 !important;
+}
+html.tour-active .tour-lift {
+  z-index: 1001 !important;
+}
+html.tour-active [role="dialog"][data-state="open"]:not(.tour-card) {
+  z-index: 1001 !important;
+}

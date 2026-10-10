@@ -1,0 +1,2 @@
+{"code":"42501","details":null,"hint":null,"message":"new row violates row-level security policy for table \"events\""}
+[HTTP 401]
